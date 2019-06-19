@@ -3,6 +3,7 @@
     "version": "1.0.1",
     "description": "shopping list built with MEARN stack",
     "main": "server.js",
+
     "scripts": {
         "client-install": "npm install --prefix client",
         "start": "node server.js",
