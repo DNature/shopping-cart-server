@@ -2,8 +2,11 @@
     "name": "mern_shopping_list",
     "version": "1.0.1",
     "description": "shopping list built with MEARN stack",
+    "engines": {
+        "node": "12.3.1",
+        "npm": "6.9.0"
+    },
     "main": "server.js",
-
     "scripts": {
         "client-install": "npm install --prefix client",
         "start": "node server.js",
